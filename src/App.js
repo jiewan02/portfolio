@@ -7,7 +7,7 @@ function App() {
       id: 1,
       title: "Eat Smart!",
       category: "LLMs & Web Services",
-      image: "/assets/eat-smart.png",
+      image: "assets/eat-smart.png",
       description: "LLM + Neo4j graph RAG recipe recommender connecting a React Frontend, Node.js/Express backend, and Flask model server.",
       techStack: ["React", "Node.js", "Flask", "Neo4j", "LLM"],
       link: "https://docs.google.com/presentation/d/1u_-9a2Bz_JRHq_c1LveCPB-J_Uv3NUIX/edit?usp=sharing&ouid=101224762682372742528&rtpof=true&sd=true",
@@ -17,7 +17,7 @@ function App() {
       id: 2,
       title: "EduScope",
       category: "Computer Vision",
-      image: "/assets/eduscope.png",
+      image: "assets/eduscope.png",
       description: "AI-based classroom engagement system using YOLO detectors to track phone use, gaze, and hand-raising.",
       techStack: ["Python", "YOLO", "Computer Vision", "AI"],
       link: "https://drive.google.com/file/d/1HzUh_vOLSXdveSOjR65IhVcNUrBcM4tw/view?usp=sharing",
@@ -36,7 +36,7 @@ function App() {
       id: 4,
       title: "SHINE",
       category: "Full Stack Web Application",
-      image: "/assets/shine.png",
+      image: "assets/shine.png",
       description: "Implemented backend and brought in Google Maps API for location-based features. Connected markers with database information to frontend.",
       techStack: ["React", "Node.js", "SQL"],
       link: "https://github.com/leo09222022/SHINE.git",
@@ -46,7 +46,7 @@ function App() {
       id: 5,
       title: "OneShotTwoKill",
       category: "Full Stack Web Application",
-      image: "/assets/oneshot.png",
+      image: "assets/oneshot.png",
       description: "First full-stack team project. Implemented backend and database connectivity.",
       techStack: ["HTML/CSS", "JavaScript", "SQL"],
       link: "https://github.com/leo09222022/OneShotTwoKill.git",
@@ -74,12 +74,12 @@ function App() {
             Currently studying Deep Learning techniques for Computer Vision and LLMs.
           </p>
           <div className="hero-buttons">
-            <a href="/resume.pdf" target="_blank" className="btn-primary">Download Resume</a>
+            <a href="resume.pdf" target="_blank" className="btn-primary">Download Resume</a>
             <a href="#projects" className="btn-secondary">View Work</a>
           </div>
         </div>
         <div className="hero-image-container">
-          <img src="/assets/profile.jpg" alt="Jiewan Hong" className="hero-img" />
+          <img src="assets/profile.jpg" alt="Jiewan Hong" className="hero-img" />
         </div>
       </section>
 
