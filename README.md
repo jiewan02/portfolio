@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# 👨‍💻 Jiewan Hong | Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Screenshot](public/assets/screenshot.png)
 
-## Available Scripts
+## 🚀 About The Project
+This is my personal portfolio website, designed to showcase my work as an **Aspiring AI Engineer & Full Stack Developer**. 
 
-In the project directory, you can run:
+It serves as a central hub for my projects, ranging from **LLM & Computer Vision research** to **Full-Stack Web Applications**. The site is built with React to demonstrate modern frontend development skills and is hosted directly on GitHub Pages.
 
-### `npm start`
+**Live Demo:** [https://jiewan02.github.io/portfolio](https://jiewan02.github.io/portfolio)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+* **Framework:** [React.js](https://reactjs.org/)
+* **Styling:** CSS3 (Custom responsive design)
+* **Deployment:** GitHub Pages (`gh-pages`)
+* **Version Control:** Git & GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Key Features
+* **Responsive Hero Layout:** A split-screen design that adapts seamlessly to mobile and desktop screens.
+* **Dynamic Project Grid:** A scalable card system that renders project data (titles, tech stacks, links) from a structured JSON array.
+* **Direct Asset Integration:** Hosts and serves static assets (PDF resumes, slide decks, images) directly from the repository.
+* **Professional Branding:** Clean typography and visual hierarchy tailored for technical recruiters.
 
-### `npm test`
+## 📂 Project Structure
+```text
+portfolio/
+├── public/
+│   ├── assets/          # Project images, profile photo, and screenshot
+│   ├── resume.pdf       # Downloadable resume file
+│   └── index.html
+├── src/
+│   ├── App.js           # Main component containing project data & layout
+│   ├── App.css          # Custom styling for Hero, Grid, and Cards
+│   └── index.js
+└── package.json         # Dependencies and deployment scripts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
+## 💻 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally on your machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**
+```bash
+git clone [https://github.com/jiewan02/portfolio.git](https://github.com/jiewan02/portfolio.git)
+cd portfolio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install dependencies**
+```bash
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Start the development server**
+```bash
+npm start
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) to view it in the browser.
 
-### Code Splitting
+## 🚀 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project uses `gh-pages` for deployment.
 
-### Analyzing the Bundle Size
+To deploy changes to the live site:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run deploy
 
-### Making a Progressive Web App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📫 Contact
 
-### Advanced Configuration
+**Jiewan Hong** *Aspiring AI Engineer & Full Stack Developer*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* **Email:** [jiewan2002@gmail.com](mailto:jiewan2002@gmail.com)
+* **GitHub:** [github.com/jiewan02](https://github.com/jiewan02)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+*Built with React ⚛️*
 
-### `npm run build` fails to minify
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
