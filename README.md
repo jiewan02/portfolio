@@ -85,7 +85,3 @@ npm run deploy
 ---
 
 *Built with React ⚛️*
-
-```
-
-```
