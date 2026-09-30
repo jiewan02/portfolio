@@ -3,7 +3,7 @@
 ![Project Screenshot](public/assets/screenshot.png)
 
 ## 🚀 About The Project
-This is my personal portfolio website, designed to showcase my work as an **Aspiring AI Engineer & Full Stack Developer**. 
+This is my personal portfolio website, designed to showcase my work as an **Aspiring Researcher in Computation & Cognition**. 
 
 It serves as a central hub for my projects, ranging from **LLM & Computer Vision research** to **Full-Stack Web Applications**. The site is built with React to demonstrate modern frontend development skills and is hosted directly on GitHub Pages.
 

@@ -463,6 +463,14 @@ section[id] {
     height: 96px;
   }
 
+  .hero-title {
+    text-wrap: balance;
+  }
+
+  .hero-title br {
+    display: none;
+  }
+
   .hero-buttons {
     width: 100%;
   }

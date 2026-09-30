@@ -159,7 +159,7 @@ function App() {
       <section className="hero">
         <div className="hero-text">
           <p className="hero-eyebrow">Computer Science + Cognitive Science · Johns Hopkins</p>
-          <h1 className="hero-title">Aspiring AI & <br /> Software Engineer.</h1>
+          <h1 className="hero-title">Aspiring Researcher in <br /> Computation & Cognition.</h1>
           <p className="hero-description">
             I aspire to become a researcher diving deeper into the intersection of Computer and Cognitive
             Science. Not just focusing on AI or software engineering, but hoping to discover the relevance
