@@ -248,6 +248,144 @@ body {
   text-decoration: underline;
 }
 
+.card-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #c4c8cf;
+  background: linear-gradient(135deg, #f4f5f7, #e6e8ec);
+}
+
+/* --- Hero extras --- */
+.hero-eyebrow {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  letter-spacing: 0.2px;
+  margin-bottom: 12px;
+}
+
+.now-list {
+  list-style: none;
+  margin-bottom: 32px;
+  max-width: 480px;
+}
+
+.now-list li {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.now-list li span {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0a7a3f;
+  background: #e8f6ee;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+/* --- Experience --- */
+.experience-section {
+  padding-bottom: 80px;
+}
+
+.timeline {
+  border-top: 1px solid #eaeaea;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.timeline-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.timeline-dates {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 500;
+}
+
+.type-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 20px;
+  background: var(--light-gray);
+  color: #555;
+}
+
+.type-research { background: #e8f0fe; color: #1a56c4; }
+.type-industry { background: #fdf0e3; color: #a65a0b; }
+
+.timeline-role {
+  font-size: 1.1rem;
+  margin-bottom: 2px;
+}
+
+.timeline-org {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.timeline-points {
+  padding-left: 18px;
+  color: var(--text-color);
+  font-size: 0.95rem;
+}
+
+.timeline-points li {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .now-list {
+    margin: 0 auto 32px auto;
+    text-align: left;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .timeline-meta {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    white-space: nowrap;
+    font-size: 1.05rem;
+  }
+
+  .nav-links a {
+    margin-left: 12px;
+    font-size: 0.8rem;
+  }
+}
+
 .footer {
   text-align: center;
   padding: 40px 0;

@@ -17,6 +17,7 @@ It serves as a central hub for my projects, ranging from **LLM & Computer Vision
 
 ## ✨ Key Features
 * **Responsive Hero Layout:** A split-screen design that adapts seamlessly to mobile and desktop screens.
+* **Experience Timeline:** Research and industry roles rendered from a structured array, with type badges.
 * **Dynamic Project Grid:** A scalable card system that renders project data (titles, tech stacks, links) from a structured JSON array.
 * **Direct Asset Integration:** Hosts and serves static assets (PDF resumes, slide decks, images) directly from the repository.
 * **Professional Branding:** Clean typography and visual hierarchy tailored for technical recruiters.
