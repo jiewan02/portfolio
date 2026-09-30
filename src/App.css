@@ -249,12 +249,16 @@ section[id] {
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  padding: 2px 8px;
-  border-radius: 6px;
-  background: none;
-  border: 1px solid #e5e7eb;
-  color: #6b7280;
+  padding: 3px 9px;
+  border-radius: 20px;
+  background: var(--light-gray);
+  color: #555;
 }
+
+.type-research { background: #e8f0fe; color: #1a56c4; }
+.type-industry { background: #fdf0e3; color: #a65a0b; }
+.type-training { background: #f1ecfd; color: #6b46c1; }
+.type-service  { background: #e6f4f4; color: #0f766e; }
 
 .timeline-body {
   max-width: 68ch;
