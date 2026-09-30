@@ -90,14 +90,6 @@ section[id] {
   flex: 1;
 }
 
-.hero-eyebrow {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--accent-color);
-  margin-bottom: 12px;
-  text-wrap: balance;
-}
-
 .hero-title {
   font-size: clamp(2.25rem, 5vw, 3.25rem);
   line-height: 1.1;

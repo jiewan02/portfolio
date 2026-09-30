@@ -158,18 +158,15 @@ function App() {
       {/* 2. Hero Section (Intro) */}
       <section className="hero">
         <div className="hero-text">
-          <p className="hero-eyebrow">Computer Science + Cognitive Science · Johns Hopkins</p>
           <h1 className="hero-title">Aspiring Researcher in <br /> Computation & Cognition.</h1>
           <p className="hero-description">
-            I aspire to become a researcher diving deeper into the intersection of Computer and Cognitive
-            Science. Not just focusing on AI or software engineering, but hoping to discover the relevance
-            these two areas have to the human mind and how cognition and computation can mesh together in
-            the real world. My background in software engineering and research utilizing data allows me to
-            think deeply about ways in which new discoveries can better the world we live in today.
+            Johns Hopkins CS + Cognitive Science student exploring how computation and cognition fit
+            together — and how those discoveries can better the world. I draw on a background in
+            software engineering and data-driven research.
           </p>
           <ul className="now-list">
-            <li><span>Now</span>Building an LLM color-knowledge benchmark at GLINT Lab</li>
-            <li><span>Now</span>Leading an independent study on intersection sight distance and near-misses</li>
+            <li><span>Now</span>LLM color benchmark · GLINT Lab</li>
+            <li><span>Now</span>Intersection sight-distance study · JHU</li>
           </ul>
           <div className="hero-buttons">
             <a href="resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary">Download Resume</a>
