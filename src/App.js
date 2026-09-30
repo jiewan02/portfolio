@@ -85,14 +85,16 @@ function App() {
       title: "From Raw LiDAR to Real Recommendations",
       category: "Research · Data Analysis",
       image: "assets/lidar.jpg",
-      description: "Traffic-safety study for Prince George's County DPW&T. Using 4.5M LiDAR-tracked vehicle movements, traced 94% of recorded near-misses to two permissive left turns — and none during the protected arrow. Presented to county staff to support protected-only left turns at peak hours.",
-      techStack: ["LiDAR", "Data Analysis", "Statistics", "Traffic Safety"]
+      description: "Traffic-safety study for Prince George's County. Across 4.5M LiDAR-tracked vehicle movements, traced 94% of near-misses to two permissive left turns; presented to county staff.",
+      techStack: ["LiDAR", "Data Analysis", "Traffic Safety"],
+      note: "Presented to PG County · Summer 2026"
     },
     {
       id: 1,
       title: "Eat Smart!",
       category: "LLMs & Web Services",
       image: "assets/eat-smart.png",
+      imagePosition: "left center",
       description: "LLM + Neo4j graph RAG recipe recommender connecting a React Frontend, Node.js/Express backend, and Flask model server.",
       techStack: ["React", "Node.js", "Flask", "Neo4j", "LLM"],
       link: "https://docs.google.com/presentation/d/1u_-9a2Bz_JRHq_c1LveCPB-J_Uv3NUIX/edit?usp=sharing&ouid=101224762682372742528&rtpof=true&sd=true",
@@ -132,6 +134,7 @@ function App() {
       title: "OneShotTwoKill",
       category: "Full Stack Web Application",
       image: "assets/oneshot.png",
+      imagePosition: "top",
       description: "First full-stack team project. Implemented backend and database connectivity.",
       techStack: ["HTML/CSS", "JavaScript", "SQL"],
       link: "https://github.com/leo09222022/OneShotTwoKill.git",
@@ -202,20 +205,26 @@ function App() {
 
       {/* 4. Projects Grid */}
       <section id="projects" className="projects-section">
-        <h2 className="section-title">My Projects</h2>
+        <h2 className="section-title">Projects</h2>
         <div className="grid">
           {projects.map((project) => (
             <div key={project.id} className="card">
               <div className="card-image-wrapper">
                 {project.image ? (
-                  <img src={project.image} alt={project.title} className="card-image" />
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="card-image"
+                    loading="lazy"
+                    style={project.imagePosition ? { objectPosition: project.imagePosition } : undefined}
+                  />
                 ) : (
-                  <div className="card-image-placeholder">{project.title.charAt(0)}</div>
+                  <div className="card-image-placeholder">{project.title.split(' (')[0]}</div>
                 )}
-                <span className="category-badge">{project.category}</span>
               </div>
 
               <div className="card-content">
+                <p className="card-category">{project.category}</p>
                 <h3 className="card-title">{project.title}</h3>
                 <p className="card-description">{project.description}</p>
 
@@ -225,10 +234,12 @@ function App() {
                   ))}
                 </div>
 
-                {project.link && (
+                {project.link ? (
                   <a href={project.link} target="_blank" rel="noopener noreferrer" className="card-link">
                     {project.linkText} →
                   </a>
+                ) : (
+                  project.note && <span className="card-link card-link--muted">{project.note}</span>
                 )}
               </div>
             </div>
