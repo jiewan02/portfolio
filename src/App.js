@@ -161,9 +161,11 @@ function App() {
           <p className="hero-eyebrow">Computer Science + Cognitive Science · Johns Hopkins</p>
           <h1 className="hero-title">Aspiring AI & <br /> Software Engineer.</h1>
           <p className="hero-description">
-            I build end-to-end systems that combine ML models with production-ready web services,
-            and I use data to explain what is actually happening in the world — from near-misses at a
-            busy intersection to what language models know about color.
+            I aspire to become a researcher diving deeper into the intersection of Computer and Cognitive
+            Science. Not just focusing on AI or software engineering, but hoping to discover the relevance
+            these two areas have to the human mind and how cognition and computation can mesh together in
+            the real world. My background in software engineering and research utilizing data allows me to
+            think deeply about ways in which new discoveries can better the world we live in today.
           </p>
           <ul className="now-list">
             <li><span>Now</span>Building an LLM color-knowledge benchmark at GLINT Lab</li>
